@@ -1,0 +1,37 @@
+-- Script ini hanya work di nodejs v20
+-- Cek versi nodejs di panel mu, di bagian startup, lalu klik Docker Images & pilih v20
+────────────────────────────────────────────────────
+
+** CARA NGAMBIL APIKEY DAN CAPIKEY
+ # CARA AMBIL APIKEY/PLTA
+  - LOGIN KEAKUN ADMIN PANEL ANDA
+  - PILIH MENU SETTING DI ATAS LALU KLIK GARIS TIGA DI KIRI ATAS
+  - CARI APPLICATION API LALU KLIK
+  - CREATE NEW LALU YANG SELECT PERMISSION DARI ATAS SAMPE BAWAH WAJIB READ & WRITE SEMUA! 
+  - LALU ISI DESCRIPTION ( TERSERAH MAU ISI APA ) 
+  - JIKA SUDAH CREATE CREDENTIALS
+  - DAN SALIN PLTA
+  
+ # CARA AMBIL CAPIKEY/PLTC
+  - KEMBALI KEDASBOARD
+  - LALU KLIK BULAT KUNING
+  - LALU PERGI KE API CREDENTIALS
+  - DESCRIPTION NYA ISI ( TERSERAH MAU ISI APA ) 
+  - JIKA SUDAH CREATE
+  - DAN SALIN PLTC
+  
+────────────────────────────────────────────────────
+
+** CARA MEMASUKKAN PLTA, PLTC DAN DOMAIN KE SC
+  - PERGI KE SETTINGS.JS
+  - SCROLL CARI /* SETTING PANEL */
+     global.domain = "domain panel https://"
+     global.apikey = "plta yang sudah di salin"
+     global.capikey = "pltc yang sudah di salin"
+  - JIKA SUDAH SAVE
+  
+────────────────────────────────────────────────────
+
+PERLU BANTUAN? WA OWNER SC : wa.me//+6285930467004
+
+-- NOTE : JIKA ADA FITUR YANG ERROR ATAU INFO LEBIH LANJUT BISA HUBUNGI OWNER DI ATAS YAA, JANGAN SPAM/TELPON OWNER!! 
